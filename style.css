@@ -1,0 +1,56 @@
+/* =========================
+   الخلفية العامة
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0509e3;
+    text-align: center;
+    color: #f8f4f4e0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* =========================
+   العناوين
+========================= */
+h1 {
+    color: #0066cc;           /* أزرق */
+    text-decoration: underline; /* تسطير */
+    text-decoration-color: #ff6600; /* لون الخط تحت */
+    text-decoration-thickness: 3px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #009688;           /* أخضر / تركواز */
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #555;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;  /* خط أسفل كل سطر */
+    padding-bottom: 5px;
+}
+
+/* =========================
+   تأثير عند المرور على النصوص
+========================= */
+h4:hover {
+    color: #ff0000;           /* يتحول للأحمر عند المرور */
+    border-color: #ff6600;
+}
+
+/* =========================
+   الصور (إذا أضفت صورة)
+========================= */
+.pectier{
+
+    width: 150px;             /* حجم الصورة */
+    height: auto;
+    border-radius: 50%;       /* تجعل الصورة دائرية */
+    border: 3px solid #0066cc;
+    margin: 15px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
